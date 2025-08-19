@@ -39,5 +39,5 @@ It has two modes:
 - **Word Finder Mode**  
   Enter known letters in order, use SPACE for unknown letters (wildcards).  
   Example: `C??T??` will find words like *CARTON*, *COSTLY*, etc.  
-  Solve is enabled as soon as you have typed at least one wildcard character.
+  Solve is enabled as soon as you have typed at least one wildcard character.  
   Note that the dictionary currently only contains words of at least 3 letters.
