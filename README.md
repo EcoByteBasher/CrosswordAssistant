@@ -1,14 +1,14 @@
 # CrosswordAssistant
 # Crossword Assistant - README
 
-This project provides a self-contained HTML/JS webpage that works as a **Crossword Assistant**.  
+This project provides a self-contained HTML/JS webpage that works as a Crossword Assistant.  
 It has two modes:
 - **Anagram Mode**: Find anagrams of 3–15 letters.
 - **Word Finder Mode**: Find words that match a pattern with known letters and wildcards (wildcards entered with SPACE).
 
 ## Files
 
-- `crossword.html` — The main webpage. Open directly in your browser, no server needed.
+- `index.html` — The main webpage. Open directly in your browser, no server needed.
 - `dictionarymap.js` — Precomputed dictionary map used for fast anagram solving.
 - `dictionarylist.js` — Plain dictionary list used for wildcard pattern solving.
 
@@ -19,15 +19,15 @@ It has two modes:
 
 2. Generate `dictionarymap.js` for **Anagram Mode**:  
    ```bash
-   node make_dictionarymap.js words.txt dictionarymap.js
+   node make_dictionarymap.js dictionary.txt dictionarymap.js
    ```
 
 3. Generate `dictionarylist.js` for **Word Finder Mode**:  
    ```bash
-   node make_dictionarylist.js words.txt dictionarylist.js
+   node make_dictionarylist.js dictionary.txt dictionarylist.js
    ```
 
-4. Place all three files (`crossword.html`, `dictionarymap.js`, `dictionarylist.js`) in the same directory.
+4. Place all three files (`index.html`, `dictionarymap.js`, `dictionarylist.js`) in the same directory.
 
 5. Open `crossword.html` directly in your browser.
 
