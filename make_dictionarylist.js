@@ -12,7 +12,7 @@ const outputFile = process.argv[3];
 const words = fs.readFileSync(inputFile, 'utf8')
   .split(/\r?\n/)
   .map(w => w.trim().toUpperCase())
-  .filter(w => w.length >= 3 && w.length <= 15);
+  .filter(w => w.length <= 15);
 
 const js = `// dictionarylist.js\nwindow.DICTIONARY = ${JSON.stringify(words, null, 2)};\n`;
 
