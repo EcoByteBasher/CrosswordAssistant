@@ -15,7 +15,7 @@ It has two modes:
 ## Workflow
 
 1. Maintain a plain `dictionary.txt` file containing one word per line.  
-   Words should be alphabetic, and between 3 and 15 characters.
+   Words should be alphabetic, and no longer than 15 characters.
 
 2. Generate `dictionarymap.js` for **Anagram Mode**:  
    ```bash
@@ -40,4 +40,4 @@ It has two modes:
   Enter known letters in order, use SPACE for unknown letters (wildcards).  
   Example: `C??T??` will find words like *CARTON*, *COSTLY*, etc.  
   Solve is enabled as soon as you have typed at least one wildcard character.  
-  Note that the dictionary currently only contains words of at least 3 letters.
+  
